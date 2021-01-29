@@ -16,3 +16,10 @@ export const createNewUserFromFirebaseAuthUser = async firebaseAuthUser => {
 
   return userDb.create(user, firebaseAuthUser.uid)
 }
+
+export const formatWord = word => {
+  return word
+    .toLowerCase()
+    .trim()
+    .replace(/ /g, '')
+}

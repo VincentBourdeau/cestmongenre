@@ -91,6 +91,7 @@
 <script>
 import { mapState } from 'vuex'
 import { functions } from '@/firebase/init'
+import { formatWord } from '@/misc/helpers'
 import WordsDB from '@/firebase/words-db'
 
 export default {
@@ -115,7 +116,7 @@ export default {
         return null
       }
 
-      const word = this.word.toLowerCase()
+      const word = formatWord(this.word)
 
       // Check if word exists
       const wordExists = this.wordsList.find(i => i.id === word)
@@ -154,7 +155,7 @@ export default {
 
       this.isLoading = true
 
-      this.word = this.word.toLowerCase()
+      this.word = formatWord(this.word)
 
       try {
         const getResultFromLarousse = functions.httpsCallable('getResultFromLarousse')
