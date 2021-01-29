@@ -3,15 +3,15 @@
     <div class="modal-wrapper">
       <div class="close" @click="$emit('close')"></div>
       <div class="main-content">
-        <h3 class="title">Install {{ appTitle }}</h3>
+        <h3 class="title">Installez l'application</h3>
         <p class="description">
-          Install this application to your home screen for quickly and easy access when you're on the go.
+          Pour installer l'application sur votre appareil, c'est simple!
         </p>
       </div>
 
       <div class="footer">
-        Just tap
-        <img class="apple-navigation-action-img" src="@/assets/img/apple-navigation-action.png" />then 'Add to Home Screen'
+        Pesez sur le
+        <img class="apple-navigation-action-img" src="@/assets/img/apple-navigation-action.png" />ajouter à la page d'accueil
       </div>
     </div>
   </div>
@@ -26,6 +26,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.apple-add-to-home-screen-modal {
+  position: fixed;
+  width: 100%;
+  max-width: 375px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .modal-wrapper {
   box-shadow: 0px 0px 20px 0px #656565;
   margin: 30px;
