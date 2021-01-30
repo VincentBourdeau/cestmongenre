@@ -149,7 +149,7 @@ export default {
         return
       }
 
-      if (this.word && this.word.length = 2) {
+      if (this.word && this.word.length <= 2) {
         return
       }
 
