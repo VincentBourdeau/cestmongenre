@@ -20,6 +20,13 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  z-index: 99;
+
+  width: auto;
   padding: 10px 20px;
   background-color: #333;
   color: white;
