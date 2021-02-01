@@ -29,6 +29,14 @@ export default {
     ...mapGetters('app', ['newContentAvailable']),
     ...mapState('app', ['showAddToHomeScreenModalForApple', 'refreshingApp'])
   },
+  mounted() {
+    const fixAppHeight = () => {
+      const el = document.querySelector('#app')
+      el.style.setProperty('height', `${window.innerHeight}px`)
+    }
+    window.addEventListener('resize', fixAppHeight)
+    fixAppHeight()
+  },
   methods: mapActions('app', ['closeAddToHomeScreenModalForApple', 'serviceWorkerSkipWaiting'])
 }
 </script>
