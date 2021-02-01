@@ -47,6 +47,8 @@ main,
   padding: 0;
   width: 100%;
   height: 100vh;
+  /* mobile viewport bug fix */
+  height: -webkit-fill-available;
   background: #faf8fa;
   color: #596778;
 }
