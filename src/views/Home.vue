@@ -2,6 +2,13 @@
   <div class="page-wrapper max-container">
     <h1 class="intro-text"><span class="is-f">féminin</span> ou <span class="is-m">masculin</span> ?</h1>
 
+    <div class="brief-text">
+      <h2>Est ce que ce mot est <strong>masculin ou féminin</strong>?</h2>
+      <p>Utilisez le formulaire si dessou afin de rapidement <br> obtenir le "genre" du mot en question.</p>
+      <p>Très simple d'utilisation et rapide à obtenir un résultat.</p>
+      <p>Terminer les fautes d'accords du genre <strong>(féminin/masculin)</strong>.</p>
+    </div>
+
     <form action="" method="" accept-charset="utf-8" @submit="evaluateWord">
       <div class="input-row">
         <input v-model="word" type="text" required />
@@ -104,7 +111,7 @@ export default {
       meta: [
         {
           name: 'description',
-          content: `Quel est le genre du mot...`,
+          content: `Utilisez le formulaire si dessou afin de rapidementobtenir le "genre" du mot en question. Très simple d'utilisation et rapide à obtenir un résultat. Terminer les fautes d'accords du genre (féminin/masculin).`,
           id: 'desc'
         }
       ]
@@ -330,6 +337,39 @@ form {
 
   p {
     text-align: center;
+  }
+}
+
+.brief-text {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
+  padding: 20px 20px;
+  border: 1px solid rgba(#000, 0.05125);
+  border-radius: 6px;
+  background: rgba(#fff, 0.75);
+  color: rgba(#596778, 0.65);
+  font-weight: 500;
+  font-size: 0.7rem;
+  text-align: center;
+
+  display: none;
+
+  @media (min-width: 500px) {
+    display: block;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0 0 10px 0;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: rgba(#596778, 0.55);
   }
 }
 
