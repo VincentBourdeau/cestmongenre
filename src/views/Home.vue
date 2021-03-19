@@ -4,7 +4,10 @@
 
     <div class="brief-text">
       <h2>Est ce que ce mot est <strong>masculin ou féminin</strong>?</h2>
-      <p>Utilisez le formulaire si dessou afin de rapidement <br> obtenir le "genre" du mot en question.</p>
+      <p>
+        Utilisez le formulaire si dessou afin de rapidement <br />
+        obtenir le "genre" du mot en question.
+      </p>
       <p>Très simple d'utilisation et rapide à obtenir un résultat.</p>
       <p>Terminer les fautes d'accords du genre <strong>(féminin/masculin)</strong>.</p>
     </div>
