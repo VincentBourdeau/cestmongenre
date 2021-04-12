@@ -5,7 +5,7 @@
     <div class="brief-text">
       <h2>Est ce que ce mot est <strong>masculin ou féminin</strong>?</h2>
       <p>
-        Utilisez le formulaire si dessou afin de rapidement <br />
+        Utilisez le formulaire ci-dessous afin de rapidement <br />
         obtenir le "genre" du mot en question.
       </p>
       <p>Très simple d'utilisation et rapide à obtenir un résultat.</p>
@@ -114,7 +114,7 @@ export default {
       meta: [
         {
           name: 'description',
-          content: `Utilisez le formulaire si dessou afin de rapidementobtenir le "genre" du mot en question. Très simple d'utilisation et rapide à obtenir un résultat. Terminer les fautes d'accords du genre (féminin/masculin).`,
+          content: `Utilisez le formulaire ci-dessous afin de rapidementobtenir le "genre" du mot en question. Très simple d'utilisation et rapide à obtenir un résultat. Terminer les fautes d'accords du genre (féminin/masculin).`,
           id: 'desc'
         }
       ]
