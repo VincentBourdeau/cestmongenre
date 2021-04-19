@@ -3,13 +3,13 @@
     <h1 class="intro-text"><span class="is-f">féminin</span> ou <span class="is-m">masculin</span> ?</h1>
 
     <div class="brief-text">
-      <h2>Est ce que ce mot est <strong>masculin ou féminin</strong>?</h2>
+      <h2>Est-ce que ce mot est <strong>masculin ou féminin</strong>?</h2>
       <p>
         Utilisez le formulaire ci-dessous afin de rapidement <br />
         obtenir le "genre" du mot en question.
       </p>
       <p>Très simple d'utilisation et rapide à obtenir un résultat.</p>
-      <p>Terminer les fautes d'accords du genre <strong>(féminin/masculin)</strong>.</p>
+      <p><strong>Terminer</strong> les fautes d'accord du genre <strong>(féminin/masculin)</strong>.</p>
     </div>
 
     <form action="" method="" accept-charset="utf-8" @submit="evaluateWord">
